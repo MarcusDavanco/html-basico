@@ -1,41 +1,16 @@
-* {
-  text-transform: uppercase;
-  color: orange;
+div {
+  margin: 40px auto;
+  width: 400px;
+  background: 10px;
 }
 
 p {
-  color: #222;
-  font-style: 16px;
-}
-div {
-  height: 200px;
-  width: 200px;
-  margin-bottom: 20px;
-  background: #bbb;
+  font: italic bold 14px/20px Helvetica, Arial;
+  text-align: center;
+  text-transform: uppercase;
+  text-indent: 20px;
 }
 
-div a,
-div p {
-  color: green;
-}
-
-a.btn-comprar {
-  color: black;
-}
-
-.principal {
-  width: 100px;
-}
-
-a {
-  width: 100px;
-  height: 20px;
-  background-color: black;
-  padding: 10px;
-}
-
-a:hover {
-  font-size: 20px;
-  color: red;
-  background-color: blue;
+ul {
+  list-style: none;
 }
