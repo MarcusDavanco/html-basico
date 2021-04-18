@@ -54,6 +54,7 @@ img {
   background: #000;
   margin: 8px auto;
 }
+
 /* Header */
 .header {
   background: #fec63e;
@@ -85,6 +86,10 @@ img {
 }
 
 .header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
   color: #fff;
 }
 
@@ -133,7 +138,31 @@ img {
   font-size: 14px;
   letter-spacing: 0.1em;
 }
+/* Introdução Interna*/
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+}
 
+.introducao-interna h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 6px auto 10px auto;
+}
 /* Produtos */
 
 .produtos {
