@@ -415,15 +415,16 @@ img {
   transition: transform 0.8s, opacity 0.8s;
 }
 
-/* 7 CSS personalizado dependendo da animação desejada */
-
-.fadeInUp {
-  transform: translate3d(0, 20px, 0);
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
 }
 
-.fadeInRight {
-  transform: translate3d(20px, 0, 0);
+#form-sucesso {
+  color: #31aa39;
 }
-.fadeInLeft {
-  transform: translate3d(-20px, 0, 0);
+
+#form-erro {
+  color: #f64540;
 }
